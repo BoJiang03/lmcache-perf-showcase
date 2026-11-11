@@ -1,0 +1,4 @@
+# Applied to the vLLM install only; vLLM nightly brings its own torch,
+# flashinfer and triton. LMCache needs protobuf<7. The LMCache stage is
+# constrained by serving-freeze.txt (the serving env as installed) instead.
+protobuf<7
